@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.COPPER_INFUSED_STICK)).entries((displayContext, entries) -> {
                         entries.add(ModItems.COPPER_INFUSED_STICK);
                         entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.LONGSWORD);
 
                         entries.add(ModBlocks.TEST_BLOCK);
 

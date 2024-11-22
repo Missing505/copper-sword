@@ -18,6 +18,10 @@ public class ModItems {
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterial.COPPER, 1, -2.4f, new FabricItemSettings()));
 
+    public static final Item LONGSWORD = registerItem("longsword",
+            new SwordItem(ModToolMaterial.COPPER, 3, -2.7f, new FabricItemSettings()));
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(COPPER_INFUSED_STICK);
     }
