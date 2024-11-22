@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":[
+    " C ",
+    " C ",
+    " I "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "coppersword:copper_infused_stick"
+    }
+  },
+  "result": {
+    "item": "coppersword:copper_sword"
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "coppersword",
+	"version": "${version}",
+	"name": "copper sword",
+	"description": "This is my first mod so don't hate me pls",
+	"authors": [
+		"Missing404"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/coppersword/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.missing.copper.sword.CopperSword"
+		],
+		"client": [
+			"net.missing.copper.sword.CopperSwordClient"
+		],
+		"fabric-datagen": [
+			"net.missing.copper.sword.CopperSwordDataGenerator"
+		]
+	},
+	"mixins": [
+		"coppersword.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
