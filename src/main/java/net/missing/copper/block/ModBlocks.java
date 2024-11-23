@@ -31,3 +31,5 @@ public class ModBlocks {
         CopperSword.LOGGER.info("Registering ModBlocks for " + CopperSword.MOD_ID);
     }
 }
+
+
