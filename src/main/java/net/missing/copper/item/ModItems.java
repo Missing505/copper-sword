@@ -11,9 +11,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.missing.copper.sword.CopperSword;
+import org.agmas.infernum_effugium.item.PebbleItem;
 
 public class ModItems {
     public static final Item COPPER_INFUSED_STICK = registerItem("copper_infused_stick", new Item(new FabricItemSettings()));
+
+    public static final Item BEAN_ITEM = registerItem("bean_item", new Item(new FabricItemSettings()));
+
+    public static final Item COPPER_INFUSED_PEBBLE = registerItem("copper_infused_pebble", new CopperPebbleItem(new FabricItemSettings()));
+
+    public static final Item BEANCORE = registerItem("bean_core", new Item(new FabricItemSettings()));
 
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterial.COPPER, 1, -2.4f, new FabricItemSettings()));

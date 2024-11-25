@@ -3,6 +3,7 @@ package net.missing.copper.sword;
 import net.fabricmc.api.ModInitializer;
 
 import net.missing.copper.block.ModBlocks;
+import net.missing.copper.entity.ModEntities;
 import net.missing.copper.item.ModItemGroups;
 import net.missing.copper.item.ModItems;
 import org.slf4j.Logger;
@@ -15,6 +16,7 @@ public class CopperSword implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+		ModEntities.init();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
