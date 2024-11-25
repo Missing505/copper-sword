@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":[
+    "BBB",
+    "BNB",
+    "BBB"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "coppersword:bean_item"
+    }
+  },
+  "result": {
+    "item": "coppersword:bean_core",
+    "count": 1
+  }
+}

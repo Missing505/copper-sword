@@ -3,18 +3,21 @@
   "category": "misc",
   "pattern":[
     "  C",
-    "BC ",
+    "BO ",
     "IB "
   ],
   "key": {
     "C": {
       "item": "minecraft:copper_ingot"
     },
-    "I": {
-      "item": "coppersword:copper_infused_stick"
-    },
     "B": {
       "item": "minecraft:copper_block"
+    },
+    "O": {
+      "item": "coppersword:bean_core"
+    },
+    "I": {
+      "item": "coppersword:copper_infused_stick"
     }
   },
   "result": {
